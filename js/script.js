@@ -19,7 +19,8 @@ window.onload = function () {
   console.log(volumeOfSphere)
 
   // output
-  document.getElementById("dimension").innerHTML = "The radius of sphere is: " + radiusOfSphere
-  document.getElementById("result").innerHTML = "The volume is: " + volumeOfSphere.toFixed(2) + " mm³"
+  document.getElementById("dimension").innerHTML =
+    "The radius of sphere is: " + radiusOfSphere
+  document.getElementById("result").innerHTML =
+    "The volume is: " + volumeOfSphere.toFixed(2) + " mm³"
 }
-
