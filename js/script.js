@@ -20,7 +20,7 @@ window.onload = function () {
 
   // output
   document.getElementById("dimension").innerHTML =
-    "The radius of sphere is: " + radiusOfSphere
+    "The radius of sphere is: " + radiusOfSphere + " mm"
   document.getElementById("result").innerHTML =
     "The volume is: " + volumeOfSphere.toFixed(2) + " mm³"
 }
